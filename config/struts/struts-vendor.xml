@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+<package name="vendor" namespace="/" extends="main">
+	<action name="vendor_*" class="vendor" method="{1}">
+		<result name="input">/${inputURL}.jsp</result>
+		<result name="vendorInfo">/WEB-INF/jsps/admin/vendorInfo.jsp</result>
+		<result name="blackList">/WEB-INF/jsps/admin/blackList.jsp</result>
+		<result name="auditedVendors">/WEB-INF/jsps/admin/auditedVendors.jsp</result>
+	</action>
+</package>
+</struts>

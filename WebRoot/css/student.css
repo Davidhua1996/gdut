@@ -1,0 +1,179 @@
+body{width: 980px;margin: 0 auto;}
+.header{margin-bottom: 80px;}
+.content{position: relative;width: 950px;height: 580px;margin: 0 auto;margin-top: 20px;padding: 36px 0 0 30px;}
+.content h1{font-size: 32px; font-weight: bold;height:39px ;width:424px ;font-weight: normal;float: left;}
+.submit{ background:  url(../images/bt_03.png) 0 0 no-repeat;}
+ul{ width: 660px;height: 50px;padding: 10px 100px;}
+a{ text-decoration: none;}
+li{
+  float: left;
+  width: 147px;height: 34px; margin-right: 40px;display: inline;padding-top: 12px;
+  font-size: 14px;
+}
+
+.shop{float: right;position: relative;}
+.shop_show{float: right; }
+.shop_cart{
+position: absolute;
+top:20px ;
+right: 0px;
+height: 340px;
+width: 245px;
+z-index:100;
+border: 1px solid #bddef5;
+background-color:#ffffff;
+display: none;
+ height: auto;
+
+}
+
+
+.shop_cart h2{
+  margin: 0;
+height: 43px;
+width: 245px;
+border-bottom: 1px solid #bddef5;
+background-color:#bddef5;
+}
+.shop_cart ul{
+  width: 225px;
+ 
+}
+.shop_cart li{
+ position: relative;
+ left: -22px;
+  height: 100px;
+  width: 225px;
+  padding: 10px;
+border-bottom: 1px solid #bddef5;
+}
+.img{
+    margin-right: 15px;
+    display: inline;
+  width: 90px;
+  height: 90px;
+  border: 1px solid #bddef5;
+  float: left;
+}
+.red{background:  url(../images/bt_04_03.png) 0 0 no-repeat;}
+.blue{background:  url(../images/bt_05_05.png) 0 0 no-repeat;}
+.feedback{float: right;}
+.edit{float: right;}
+.shop{float: right;}
+.Student_info{ width: 650px;height: 175px; text-align: center;}
+input[type=text],input[type=password]{margin-left:10px;width: 295px; padding-left: 10px;line-height: 26px; border: 1px solid #ccc;box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset;transition:border 0.2s linear 0s, box-shadow 0.2s linear 0s; border-radius: 4px;height: 33px;margin-top: 2px;
+ 
+    }
+    input[type=text]:focus,input[type=password]:focus{
+     border-color: rgba(82, 168, 236, 0.8);
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;  }
+    #health{ width: 314px;margin-bottom: 10px;overflow-y: hidden;}
+  .content_Order{ height: 450px;margin-bottom: 100px;padding: 10px 150px 0;border: 1px solid #bddef5;}
+  #s2id_dormitory_building{ margin-right: 44px;}
+  .Register{ height: 1150px;}
+.focus{ 
+filter: progid:DXImageTransform.Microsoft.Shadow(color='#ecf5fb', Direction=135, Strength=5);/*for ie6,7,8*/
+-moz-box-shadow:1px 1px 4px #ecf5fb;/*firefox*/
+-webkit-box-shadow:1px 1px 4px #ecf5fb;/*webkit*/
+box-shadow:1px 1px 4px #ecf5fb;/*opera或ie9*/
+border: 1px solid #e5f1fa;
+     }
+#identifying{width: 140px;}
+.content h2{font-size: 25px;margin-bottom: 20px;}
+.content h3{font-size: 20px;margin-bottom: 20px;}
+.order{}
+.login{padding: 2px 25px 0 25px;float: left;background:  url(../images/form_01_03.png) 0 0 no-repeat;}
+.student_login{background:  url(../images/form_01_04.png) 0 0 no-repeat; height: 300px;width: 380px;padding-left: 20px;}
+.adv{width: 525px; height: 440px;float: left;display: inline;margin-right: 1px;}
+.int{margin: 15px 0;width: 334px;display: block;}
+.student_int{width: auto;}
+input[type=submit]{ background:url(../images/bt_1_03.jpg) 0 0 no-repeat; width: 83px;height: 32px;  cursor: pointer;color:#f8fcfe; } 
+small{}
+label{*+position: relative;*+bottom: 10px;}
+.identifying_img{width: 100px; position: absolute;right: 25px;display: inline-block;height: 40px;border: 1px solid blue;}
+/*login*/
+
+.content h3{font-size: 20px;margin-bottom: 20px;}
+.dormitory{width: 735px;height: 330px;border: 1px solid #000;padding: 10px 0 0 15px;}
+.dormitory p{font-size: 19px;}
+.dormitory input[type=text],.dormitory_area,.dormitory_building{margin: 8px 0 20px 156px; }
+.button{ padding-left: 100px;}
+
+/*student_dormitory*/
+.list{width: 935px;height: 150px;border: 1px solid #000;padding-left: 15px;margin-bottom: 40px;}
+.order p{margin: 10px 0 0 65px;}
+.order_water{padding: 0 80px;width: 960px;height: 730px;}
+.order_water h1 {text-align: center;margin-bottom: 5px;}
+.info a{float: right;}
+.product select {margin-top: 4px;}
+.select{margin: 0 145px 0 30px;width: 100px;float: left;}
+.btn{text-align: center;}
+/*student_order_water*/
+.pay{height: 176px;width: 760px;text-align: center;padding: 30px;line-height: 30px;border: 2px solid #bddef5;margin: 0 auto;}
+.manager{width:630px; height:250px ;padding: 30px;line-height: 30px;border: 2px solid #bddef5;margin: 0 auto;margin-bottom: 50px; }
+.select{ height: auto;width: 632px;border: 2px solid #bddef5;margin: 0 auto 70px auto;padding: 30px;position: relative;}
+.select span{ margin-right: 100px;display: inline;float: left;width: 70px;}
+.select_product button{ float: right;position: absolute;bottom: 10px;right: 5px;}
+.select_h{ padding-left: 5px;text-align: left;margin: 0;}
+.select_product{ border: 2px solid #bddef5;width: 600px;height: 85px;margin-bottom: 5px;position: relative;padding: 10px 0 0 0 ;}
+.pay h2{ padding: 30px;width: 692px; height: 76px;text-align: center;border: 2px solid #bddef5;background-color: #eeeeee;}
+/*pay_success*/
+.info{padding: 20px 0 0 50px;}
+.student_info{height: 400px;}
+.table_info{margin:0 0 100px 60px;}
+.info p{margin-bottom: 10px;}
+.button1{margin-top: 90px;}
+/*student_Info*/
+#login{ width: 357px;height: 280px;float: left; position: relative;}
+.add{ padding-left: 200px; }
+#product{ }
+.button1{ position: absolute;bottom: 10px;left: 156px;}
+.forget{position: absolute;right:40px;bottom: 70px;}
+.business{ height: auto;}
+.change{ height: 330px;}
+.change_form{ padding-left:150px;}
+.change_form .int{margin-bottom: 40px;}
+ .button{padding-right: 100px;}
+/*business_change*/
+.student_info .area_order{margin-bottom: 50px;}
+.register{ height: auto;}
+.content ul{padding-left: 70px;height: 33px;margin: 0 auto 20px auto; width: 935px;}
+.content li{ margin-right: 5px; border: 1px solid #000;float: left; width: 182px;height: 33px;text-align: center;line-height: 33px;}
+.active{color: #000;background-color:#333;}
+.response{float: right;}
+.cart{margin: 5px 0 5px 90px;}
+.print{height: auto;}
+.product{width: 940px;}
+.product_shop{border: 1px solid #000;margin-left: 90px;width: 760px;height: 90px;margin-bottom: 25px;}
+.shop{float: right;position: relative;}
+.shop_list{width: auto;height: auto;position: absolute;top: 20px;right: 0;}
+.shop_list h1{height: 35px;line-height: 35px;}
+.dimension{width: 115px;height: 125px; right: 100px;top: 100px;position: absolute;}
+.dimensioncode{ width: 115px; height: 115px;background-color:red;}
+/*tip*/
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }
+em.error {
+  background:url("../images/unchecked.gif") no-repeat 0px 0px;
+  padding-left: 16px;
+  font-size: 14px;
+  position: relative;
+  left: 5px;
+  top: 7px;
+}
+em.success {
+  background:url("../images/checked.gif") no-repeat 0px 0px;
+    padding: 0 0 10px 16px;
+    left: 1px;
+    position: relative;
+    top: 12px;
+}
+.exit{float: right;}
+.business_info{height: auto;}
+  .black{ position: fixed; top: 0; 
+width: 100%;height: 100%; background-color: #000;
+        left: 0; opacity: 0.7;filter:alpha(opacity=70);z-index:9998;display: none;}
+.input_text{ top:-2px\9\0;
+ 
+                    top:-2px\0;}

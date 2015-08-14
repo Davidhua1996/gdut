@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="user" namespace="/" extends="main">
+		<action name="user_*" class="user" method="{1}">
+			<interceptor-ref name="fileUpload">
+				<param name="maximumSize">10*1024*1024</param>
+				<param name="allowedTypes">
+					image/gif,image/png,image/jpeg,image/jpg,image/pjpeg
+				</param>
+				<param name="includeMethods">vendorRegister</param>
+			</interceptor-ref>
+			<interceptor-ref name="myStack"/>
+			<result name="input">/${inputURL}.jsp</result>
+			<result name="adminLogin">/adminLogin.jsp</result>
+			<result name="auditedVendors">/WEB-INF/jsps/admin/auditedVendors.jsp</result>
+		</action>
+	</package> 
+</struts>

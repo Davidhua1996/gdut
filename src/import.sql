@@ -1,0 +1,13 @@
+use gdut;
+insert into t_area(name) values('内区');
+insert into t_area(name) values('外区');
+insert into t_building(name,area_id) values('D',2);
+insert into t_building(name,area_id) values('C',2);
+insert into t_building(name,area_id) values('E',2);
+insert into t_building(name,area_id) values('F',2);
+insert into t_building(name,area_id) values('A1',1);
+insert into t_building(name,area_id) values('A2',1);
+insert into t_building(name,area_id) values('B1',1);
+insert into t_building(name,area_id) values('B2',1);
+insert into t_building(name,area_id) values('C1',1);
+insert into t_building(name,area_id) values('C2',1);

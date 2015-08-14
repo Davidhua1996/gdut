@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="product" namespace="/" extends="main">
+	<action name="product_*" class="product" method="{1}">
+		<result name="productInfo">/WEB-INF/jsps/admin/productInfo.jsp</result>
+	</action>
+	</package> 
+</struts>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="feedBack" namespace="/" extends="main">
+	<action name="feedBack_*" class="feedBack" method="{1}">
+		<result name="feedBackList">/WEB-INF/jsps/admin/feedBackList.jsp</result>
+	</action>
+	</package> 
+</struts> 
